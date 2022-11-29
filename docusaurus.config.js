@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ncsocial/about/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ncsocial/about/edit/main/',
         },
         blog: false, 
         //{
