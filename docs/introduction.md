@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Welcome to **nc.social**
+# Introduction
 
 This site is currently a work in progress, but soon it will contain a bunch of information about what we're doing and how to get involved. 
 
