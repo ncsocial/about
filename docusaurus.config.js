@@ -84,15 +84,15 @@ const config = {
             items: [
               {
                 label: 'Home',
-                href: 'https://nc.social',
+                to: 'https://nc.social',
               },
               {
                 label: 'Create an account',
-                href: 'https://nc.social/auth/sign_up',
+                to: 'https://nc.social/auth/sign_up',
               },
               {
                 label: 'Privacy',
-                href: 'https://nc.social/privacy-policy',
+                to: 'https://nc.social/privacy-policy',
               },
             ],
           },
@@ -105,12 +105,12 @@ const config = {
               },
               {
                 label: 'Server Status',
-                href: 'https://status.nc.social',
+                to: 'https://status.nc.social',
               },
             ],
           },
         ],
-        copyright: `CC BY-SA ${new Date().getFullYear()} nc.social.`,
+        copyright: `CC BY-SA ${new Date().getFullYear()} nc.social`,
       },
       prism: {
         theme: lightCodeTheme,
