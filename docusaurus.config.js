@@ -64,7 +64,7 @@ const config = {
         title: 'nc.social',
         logo: {
           alt: 'space cardinal logo',
-          src: 'img/cardinal.jpg',
+          src: 'img/cardinal.png',
         },
         items: [
           //{type: 'doc', docId: 'welcome', position: 'left', label: 'Welcome'},
