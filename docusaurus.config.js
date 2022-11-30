@@ -61,16 +61,11 @@ const config = {
       navbar: {
         title: 'nc.social',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'space cardinal logo',
           src: 'img/cardinal.jpg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'welcome',
-            position: 'left',
-            label: 'Welcome',
-          },
+          //{type: 'doc', docId: 'welcome', position: 'left', label: 'Welcome'},
           //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/ncsocial/about',
@@ -83,33 +78,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'nc.social',
             items: [
               {
                 label: 'Home',
-                to: '/',
+                href: 'https://nc.social',
+              },
+              {
+                label: 'Create an account',
+                href: 'https://nc.social/auth/sign_up',
+              },
+              {
+                label: 'Privacy',
+                href: 'https://nc.social/privacy-policy',
               },
             ],
           },
           {
-            title: 'Links',
+            title: 'More',
             items: [
               {
-                label: 'nc.social',
-                href: 'https://nc.social',
+                label: 'Github',
+                href: 'https://github.com/ncsocial',
               },
               {
                 label: 'Server Status',
                 href: 'https://status.nc.social',
               },
-              {
-                label: 'Github',
-                href: 'https://github.com/ncsocial',
-              },
             ],
           },
         ],
-        copyright: `CC-BY ${new Date().getFullYear()} nc.social.`,
+        copyright: `CC BY-SA ${new Date().getFullYear()} nc.social.`,
       },
       prism: {
         theme: lightCodeTheme,
