@@ -24,7 +24,7 @@ Profile pictures and other uploaded and cached media files are hosted at `static
 
 ### Other Sites
 
-We maintain two other sites that aren't Mastodon services: [status.nc.social](https://status.nc.social) and the site you're on right now, [about.nc.social](https://about.nc.social). The status site is hosted on Github pages and runs a free, open-source uptime checker called [Upptime](https://upptime.js.org/). This site is hosted for free on [Vercel](https://vercel.com) and built with an open source docs tool called [Docusaurus](https://docusaurus.io/). The code for both of these sites is available on our [Github](https://github.com/ncsocial).
+We maintain two other sites that aren't Mastodon services: [status.nc.social](https://status.nc.social) and the site you're on right now, [about.nc.social](https://about.nc.social). The status site is hosted on Github pages and runs a free, open-source uptime checker called [Upptime](https://upptime.js.org/). This site is hosted for free on [Vercel](https://vercel.com) and is built with an open source docs tool called [Docusaurus](https://docusaurus.io/). The code for both of these sites is available on our [Github](https://github.com/ncsocial).
 
 ## Other Services
 
@@ -34,7 +34,7 @@ We use [Cloudflare](https://cloudflare.com)'s free tier to manage DNS and provid
 
 ### Email
 
-We use [Sendgrid](https://sendgrid.com) to handle outgoing emails sent from the nc.social domain. Using a 3rd-party email provider means we don't have to worry as much about our emails getting caught up in people's spam folders (theoretically). We use their free tier, which allows 100 emails/days. This will likely be the next thing we'll have to start paying for if this community gets bigger. In the meantime, consider whether you really need email notifications turned on. 😎
+We use [Sendgrid](https://sendgrid.com) to handle outgoing emails sent from the nc.social domain. Using a 3rd-party email provider means we don't have to worry as much about our emails getting caught up in people's spam folders (theoretically). We use their free tier, which allows 100 emails/day. This will likely be the next thing we'll have to start paying for if this community gets bigger. In the meantime, consider whether you really need email notifications turned on. 😎
 
 ### Domain Registrar
 
